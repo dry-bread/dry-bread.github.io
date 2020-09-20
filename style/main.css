@@ -43,6 +43,7 @@ svg.icon {
   width: 20px;
   height: 20px; }
   svg.icon.icon-menu {
+    pointer-events: none;
     float: left;
     margin-top: 21px;
     margin-left: -35px; }
@@ -78,8 +79,10 @@ svg.icon {
     font-size: 17px;
     font-weight: 500; }
   .left-aside .sns {
+    left:50%;
+    transform: translateX(-50%);
     position: absolute;
-    bottom: 20%; }
+    bottom: 5%; }
     .left-aside .sns li {
       list-style: none;
       float: left;
